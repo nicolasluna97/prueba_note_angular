@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthModule } from './auth/auth.module';
 import { HeroesModule } from './heroes/heroes.module';
-import { Error404PageComponent } from './shared/pages/error404-page/error404-page.component';
+import { Error404PageComponent } from './heroes/pages/error404-page/error404-page.component';
 
 const routes: Routes = [
   {
